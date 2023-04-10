@@ -1,0 +1,182 @@
+body * {
+    /* text-align: ; */
+    /* color: ; */
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background: #000f08;
+    color: white;
+    padding: 12px 0 13px 0;
+}
+
+li {
+    display: inline;
+    vertical-align: middle;
+    margin: 0 50px 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.icono svg {
+    fill: #ffffff;
+    width: 2rem;
+    margin-left: 50px;
+    vertical-align: middle;
+}
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* propiedades agregadas */
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    text-shadow: 0px 3px 6px black;
+    text-align: right;
+    color: white;
+    padding: 50px 100px 100px 200px;
+}
+
+header h1{
+    font-size: 60px;
+}
+
+header h3{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#Proxima-Charla {
+    background: #a4452c;
+    padding: 100px;
+    color: white
+}
+
+.lugar {
+    text-align: center;
+    padding: 100px;
+}
+
+.lugar img {
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+.lugar h2 {
+    font-size: 25px;
+}
+
+.lugar p {
+    padding: 15px 460px;
+}
+
+#Proxima-Charla .wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+#Proxima-Charla .texto {
+    width: 55%;
+}
+
+#Proxima-Charla .texto h2 {
+    font-size: 30px;
+}
+
+#Proxima-Charla .texto h3 {
+    font-size: 25px;
+}
+
+#Proxima-Charla .texto h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 10px 0 0 0 ;
+}
+
+.wrapper img {
+    width: 25%;
+    border-radius: 5px;
+}
+
+.wrapper .texto {
+    width: 70%;
+    margin-left: 4%;
+}
+
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* .speaker {
+    background: #a4452c;
+    color: white;
+    margin: 50px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: blue;
+    padding: 20px;
+} */
+
+.carrera-expositor {
+    font-size: 15px;
+    font-weight: 100;
+    opacity: 0.8;
+    padding: 0 0 10px 0;
+}
+
+.descripcion-charla {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.eventos-anteriores {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.eventos-anteriores h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.eventos-anteriores div {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.eventos-anteriores h3 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.eventos-anteriores img {
+    border-radius: 5px;
+    width: 75%;
+}
+
+footer {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background: #000f08;
+    color: white;
+    padding: 60px 50px 50px 50px;
+}
+
+i {
+    font-size: 50px;
+    margin: 5px;
+   }
+
+footer p {
+    margin: 25px 0 -30px 0;
+    opacity: 0.8;
+}
